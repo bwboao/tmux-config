@@ -17,3 +17,7 @@ setw -g window-status-format '#[fg=brightmagenta,bg=black] #I-#W'
 # bind shift-LR as prev and next
 bind -n S-left prev
 bind -n S-right next
+
+# set mouse for scrolling
+set -g mouse on # for tmux version 2.1 or up
+# set -g  mode-mouse on # for < 2.1
