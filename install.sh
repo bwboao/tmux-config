@@ -11,3 +11,6 @@ fi
 
 #link softlink
 ln -s ${PWD}/tmux-config-file ${tfile}
+
+#reload the tmux config file
+tmux sourec-file ${tfile}
