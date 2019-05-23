@@ -13,4 +13,7 @@ fi
 ln -s ${PWD}/tmux-config-file ${tfile}
 
 #reload the tmux config file
-tmux sourec-file ${tfile}
+if [ ${TMUX} ]; then
+    tmux source-file ${tfile}
+fi
+
